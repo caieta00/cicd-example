@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/setup-python@v4
         with:
-          pythonn-verion: "3.12"
+          pythonn-version: "3.12"
 
       - name: Install package
         run: python -m pip install -e .[test]
